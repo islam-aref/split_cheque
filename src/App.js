@@ -56,7 +56,7 @@ export default function App() {
 
   return (
     <div className="app">
-    <header> Cheque Splitter </header>
+    <h1> Cheque Splitter </h1>
       <div className="sidebar">
         <FriendsList
           friends={friends}
