@@ -38,7 +38,7 @@ h1{
   left: 0; /* Aligns the header with the left edge */
   width: 100%; /* Makes the header stretch across the full width */
   height: 90px; /* Set a height for your header */
-  font-size: 60px;
+  font-size: 48px;
   background-color: #333; /* Background color of your choice */
   color: white; /* Text color */
   display: flex; /* Flexbox for content alignment */
