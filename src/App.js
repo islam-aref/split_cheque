@@ -56,7 +56,8 @@ export default function App() {
 
   return (
     <div className="app">
-    <h1> Cheque Splitter </h1>
+    <div><h1> Cheque Splitter </h1></div>
+    <div>
       <div className="sidebar">
         <FriendsList
           friends={friends}
@@ -74,6 +75,7 @@ export default function App() {
           onSplitBill={handleSplitBill}
         />
       )}
+      </div>
     </div>
   );
 }
